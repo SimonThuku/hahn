@@ -1,0 +1,92 @@
+div#sidebar-box {
+  position: fixed;
+}
+#sidebar-box {
+  height: 250px;
+  left: 0;
+  top: 35%;
+  width: 52px;
+  z-index: 5002;
+}
+#feedback-button {
+  height: 144px;
+  width: 52px;
+}
+#feedback-button a {
+  background: url(../ha_images/feedback_button.png) no-repeat scroll 0 0 transparent;
+  cursor: pointer;
+  display: block;
+  height: 144px;
+  position: relative;
+  width: 52px;
+  z-index: 5001;
+}
+/*sharing*/
+
+#sm-link-box {
+  height: 106px;
+  position: relative;
+  width: 52px;
+}
+
+#sm-link-box-content {
+  background: none repeat scroll 0 0 red;
+  left: 0;
+  position: absolute;
+  top: 0;
+  z-index: 5003;
+}
+
+#sm-link-box-bg {
+  background: url(../ha_images/sm_sidebar_bg_bigger.png) no-repeat scroll 0 0 transparent;
+  height: 136px;
+  left: 0;
+  position: relative;
+  top: 0;
+  width: 52px;
+  z-index: 5002;
+}
+
+a.sm-side-box-fb {
+  background: url(../ha_images/sm_fb.gif) no-repeat scroll 0 0 transparent;
+  display: block;
+  height: 25px;
+  left: 11px;
+  position: absolute;
+  top: 11px;
+  width: 24px;
+}
+a.sm-side-box-tw {
+  background: url(../ha_images/sm_tw.gif) no-repeat scroll 0 0 transparent;
+  display: block;
+  height: 25px;
+  left: 11px;
+  position: absolute;
+  top: 42px;
+  width: 24px;
+}
+a.sm-side-box-gplus {
+  background: url(../ha_images/googlePlus.png) no-repeat scroll 0 0 transparent;
+  display: block;
+  height: 23px;
+  left: 11px;
+  position: absolute;
+  top: 73px;
+  width: 25px;
+}
+
+a.sm-side-box-yt {
+  background: url(../ha_images/sm_yt.gif) no-repeat scroll 0 0 transparent;
+  display: block;
+  height: 22px;
+  left: 11px;
+  position: absolute;
+  top: 102px;
+  width: 24px;
+}
+.site-footer {
+
+}
+.hidden {
+  display: none;
+}

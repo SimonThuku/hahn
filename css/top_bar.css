@@ -1,0 +1,29 @@
+.booking, .ticketing {
+  float: left;
+  position: relative;
+}
+.booking #text {
+  color: #FFFFFF;
+  font-weight: 700;
+  left: 50px;
+  position: absolute;
+  top: 10px;
+  width: 300px;
+}
+.ticketing > p {
+  color: #FFFFFF;
+  font-weight: 700;
+  left: 50px;
+  position: absolute;
+  top: 10px;
+  width: 300px;
+}
+
+.breadcrumb {
+  color: #FFFFFF;
+  margin: 0px 0 3px 10px;
+}
+.navbar {
+    margin-bottom: 10px;
+    
+}

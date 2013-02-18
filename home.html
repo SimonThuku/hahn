@@ -1,0 +1,495 @@
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ 
+  <title> HahnAiR Basic Page</title>
+  <meta charset="utf-8"/>
+  <meta name="description" content="Harn Air Basic Page"/>
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script> 
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css"  type="text/css"/>
+  <script src="bootstrap/js/bootstrap.js" type="text/javascript"></script> 
+  
+  
+  <link rel="stylesheet" href="css/style.css" type="text/css" media=screen>
+  <!--Regions css -->
+  <link rel="stylesheet" href="css/footer.css" type="text/css" media=screen>
+  <link rel="stylesheet" href="css/main-content.css" type="text/css" media=screen>
+  <link rel="stylesheet" href="css/top_bar.css" type="text/css" media=screen>
+  <link rel="stylesheet" href="css/sidebar.css" type="text/css" media=screen>
+  
+  
+</head>
+<body>
+  <div class="row container">
+    <div  class="row top_bar">
+       <!--startoflogo-->
+      <div id="logo">
+        <img src="ha_images/logo-hahn-air.png" alt="logo-image"/>
+      </div>
+      <div class="search-bar">
+                     <div class="input-prepend offset8">
+                          <span class="add-on">
+                              <i class="icon-search"></i>
+                          </span>
+                          <input type="search" class="span3" placeholder="Search" name="search" id="search"/>
+                      </div>                
+      </div>
+      <!--startof language-->
+      <div class="language offset6">    
+        <a data-toggle="modal" href="#login" class="btn btn-primary btn-mini">Login</a>
+        <a class="btn btn-header btn-primary btn-mini" href="">Register</a>
+        <div class="btn-group">
+          <button  data-toggle="dropdown" class="btn  btn-primary dropdown-toggle btn-mini">
+                Change Language
+                <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu">
+            <li> <a href="" >English</a></li>
+            <li><a href="" >French</a></li>
+            <li><a href="" >Japanese</a></li>
+            <li><a href="">Korean</a></li>
+            <li><a href="">Portuguese, Portugal</a></li>
+            <li> <a href="">Russian</a></li>
+            <li><a href="">German</a></li>
+            <li><a href="">Spanish</a> </li>
+          </ul>
+        </div>
+      </div>
+      <!--start of navbar -->
+      
+           <!--Ticketing Image-->
+        <div class="ticketing offset6">
+            <img src="ha_images/top_tab_ticketing_active.png" alt="ticketing"/>
+              <p>Ticketing</p>
+        </div>
+        
+          <!--Booking Image-->
+          <div class="booking">
+            <img src="ha_images/top_tab_booking_inactive.png" alt="booking"/>
+            <div id="text">
+              <p>Booking</p>
+            </div>
+          </div>
+          <!--navbar-->
+          <div class="span12">
+              <div class="navbar navigation">
+                  <div class="navbar-inner">
+                      <ul class="nav">
+                        <li class="active"><a href="">Home</a></li>
+                        <li><a href="about/about.html">About</a></li>
+                        <li><a href="multimedia/gallery.html">Multimedia</a></li>
+                        <li><a href="faq/faq.html">Faq</a></li>
+                      </ul>
+                  </div>
+              </div>  
+          </div>
+          
+          
+          
+      <!--start of breadcrumb -->
+          <div class="span3 breadcrumb">
+                <ul class="breadcrumb">
+                      <li><a href="#">Home</a> <span class="divider">/</span></li>
+                      <li><a href="#">Library</a> <span class="divider">/</span></li>
+                      <li class="active">Data</li>
+                      
+              </ul>
+          </div>
+    </div>
+    <!--start of content -->
+    <div class="row content">   
+         <!--start of main content-->
+        <div  class="main-content span8">
+          
+          <div class="carousel slide" id="myCarousel">
+               
+                <div class="carousel-inner">
+                  <div class="item active left">
+                    <img alt="" src="ha_images/pin_win_daily.jpg"/>
+                    <div class="carousel-caption">
+                      <h4>First Thumbnail label</h4>
+                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </div>
+                  </div>
+                  <div class="item next left">
+                    <img alt="" src="ha_images/HR_googleplus.jpg"/>
+                    <div class="carousel-caption">
+                      <h4>Second Thumbnail label</h4>
+                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img alt="" src="ha_images/martin_movie.jpg"/>
+                    <div class="carousel-caption">
+                      <h4>Third Thumbnail label</h4>
+                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </div>
+                  </div>
+                </div>
+                <a class="left carousel-control" data-slide="prev" href="#myCarousel" >‹</a>
+                <a class="right carousel-control" data-slide="next" href="#myCarousel" >›</a>
+              </div> 
+       </div>    
+         <div class="cr-right span3">
+              <div class="quickCheck"> <h6>QuickCheck</h6></div>
+               <div class="quick-check-row">
+                <p class="intro-text">Choose your country of ticketing and airline(s) to check the ticketing availability on HR-169 </p>
+               </div>
+                <div class="quick-check-row">
+                          <p>1: <span>choose country of ticketing</span></p>
+                          <div class="select-box">
+                            <select class="choose-bsp-arc">
+                              <option value="">Please choose...</option>
+                                            <option value="AF">
+                              Afghanistan              </option>
+                                            <option value="AL">
+                              Albania              </option>    
+                                          </select>
+                          </div>
+                </div>
+                <div class="checkme">
+                 <a class="btn btn-samll btn-warning" href="#">Check</a>
+               </div>
+          </div>
+
+    
+    </div>
+
+              <!--start of secondary content -->
+          <div class=" row secondary-content">
+                 <!--start of secondary content description -->
+            <div>
+                     <div  class="description-content span12">
+                     <div  class="description-left span6">
+                     <p>Established as the ticketing expert worldwide and operating the industry's leading universal e-ticketing platform, Hahn Air's mission is to connect 100,000 travel agencies worldwide through every GDS or the internet, with all technically capable airlines of the world. The goal is to provide seamless access to passenger data at all boarding points, across all continents.</p>
+                     </div>
+                     <div class="description-center span3">
+                          <h5>All tickets insolvency insured</h5>
+                          <div id="description-center-left" >
+                        <img src="ha_images/logo_securefix.png" alt="SECUREFIX" /><br>
+                        <a class="read-more" href="" title="">» see details</a>
+                </div>
+                    </div>
+                     <div  class="description-right span3">
+            `   <table>
+                        <tbody>
+                            <tr style="border-bottom: 1px dotted #999999;">
+                                <td>5,648</td>
+                                <td>today</td>
+                            </tr>
+                            <tr>
+                                <td class="first-col">10,952,880</td>
+                                <td>since Jan 1st 2010</td>
+                            </tr>
+                        </tbody>
+               </table>
+             </div>             
+            </div>
+          </div>    
+            
+              <!--start of secondary content Tabs -->
+ 
+           <div>
+             <div  class="description-content span12">
+             
+           <div class="tab-area">
+
+              <ul class="nav nav-tabs">
+                  <li class="active"><a data-toggle="tab" href="#1"><b>News and Press</b></a></li>
+                  <li><a data-toggle="tab" href="#2"><b>Airline Profiles</b></a></li>
+                  <li><a data-toggle="tab" href="#3"><b>Routes Map and Codes</b></a></li>
+                  <li><a data-toggle="tab" href="#4"><b>Testimonials</b></a></li>
+                  <li><a data-toggle="tab" href="#5"><b>Online tools</b></a></li>
+                 
+            </ul>
+
+                <!--tab content -->
+                
+                <div class="tab-area-sect tab-content">
+
+                   <!--news and press tab -->
+                    
+                   <article id="1" class="tab-pane active">
+                   <div class="row-fluid">
+                    <div class="span12">
+                   <span>Hahn Air's latest news and information. Discover interesting facts about our airline partners, worldwide (non) BSP/ARC network, products and services.</span>
+                     <div class="row-fluid">
+                    <div  class="news-release span6">
+                    <h4>News Releases</h4>
+                          <ul class="latestnews unstyled">
+                            <li class="latestnews">   
+                                <a href="" class="latestnews">
+                                      Three new partner airlines can be ticketed on Hahn Air e-documents&nbsp;&nbsp;<span class="newsnpress-date">2012-12-05</span>
+                                </a>
+                            </li>
+                            <li class="latestnews">   
+                                <a href="" class="latestnews">
+                                      Hahn Air releases its online game Pin-and-Win&nbsp;&nbsp;<span class="newsnpress-date">2012-11-13</span>
+                                </a>
+                            </li>
+                            <li class="latestnews">   
+                                <a href="" class="latestnews">
+                                     Hahn Air and Deer Jet pull together for distribution in Asia&nbsp;&nbsp;<span class="newsnpress-date">2012-11-06</span>
+                                </a>
+                            </li>
+                            <li class="latestnews">   
+                                <a href="" class="latestnews">
+                                      TAME is now available on HR-169&nbsp;&nbsp;<span class="newsnpress-date">2012-10-16</span>
+                                </a>
+                            </li>
+                            <li class="latestnews">   
+                                <a href="" class="latestnews">
+                                      Hahn Air signs Garuda Indonesia and Cambodia Angkor Air&nbsp;&nbsp;<span class="newsnpress-date">2012-09-12</span>
+                                </a>
+                            </li>
+                        </ul> 
+                           <a href="" class="btn btn-mini  btn-primary">More News  »</a>        
+                    </div>
+                   
+                     <div class="press-news span6">
+                     
+                       <h4>Hahn Air in the Press</h4>
+                       
+                         <ul class="latestnews unstyled">
+                                <li class="latestnews">   
+                                    <a href="" class="latestnews">
+                                         Hahn Air signs Virgin America, Tradewind Aviation and RAK Airways&nbsp;&nbsp;<span class="newsnpress-date">2012-12-06</span>
+                                    </a>
+                                </li>
+                                <li class="latestnews">   
+                                    <a href="" class="latestnews">
+                                          Hungary, General Information about Hahn Air&nbsp;&nbsp;<span class="newsnpress-date">2012-12-03</span>
+                                    </a>
+                                </li>
+                                <li class="latestnews">   
+                                    <a href="" class="latestnews">
+                                          Germany, Venture between Hahn Air and Deer Jet &nbsp;&nbsp;<span class="newsnpress-date">2012-11-30</span>
+                                    </a>
+                                </li>
+                                <li class="latestnews">   
+                                    <a href="" class="latestnews">
+                                          Australia, Joint competition of Travel Daily and Hahn Air&nbsp;&nbsp;<span class="newsnpress-date">2012-11-16</span>
+                                    </a>
+                                </li>
+                                <li class="latestnews">   
+                                    <a href="" class="latestnews">
+                                          Asia. Hahn Air releases its online game Pin-and-Win&nbsp;&nbsp;<span class="newsnpress-date">2012-11-15</span>
+                                    </a>
+                                </li>
+                            </ul>
+                          <a href="" class="btn btn-mini  btn-primary">More Articles  »</a>    
+                      </div>  
+                    </div>
+                    </div>
+                   </div>
+                   </article>
+                   
+                   <article id="2" class="tab-pane">
+                    
+                      <div class="span12">
+                      
+                      <h3>Simple carousel</h3>
+                    <p>
+                      This is the most simple usage of the carousel with no configuration options.
+                    </p>
+  
+                    </div>
+                    
+                    </article>
+                   
+                   <article id="3" class="tab-pane">
+
+              
+                     <div id="airline-codes" class="span6">
+                     
+                       <h4>Route maps / Airline codes</h4>
+                       <p>Please select your airline by typing at least 2 letters:</p>
+                         
+                       <input type="text" placeholder="airport">    <img src="ha_images/images/routemaps-clear.gif" alt="route-clear"/>
+                       
+                       <p>Hahn Air partner airlines will be highlited in blue.</p>
+                       
+                       <p><img src="ha_images/images/routemaps-airlinecodes.jpg" alt="routes-airlines"></p>
+                       
+                     </div>
+                     
+
+                    <div id="airport-codes" class="">
+                    
+                      <h4>Route maps / Airport codes</h4>
+                    
+                      <p>Please select your airport by typing at least 3 letters:</p>
+                    
+                      <input type="text" placeholder="airline"> 
+                      <img src="ha_images/images/images/routemaps-clear.gif" alt="clear"/>
+                       
+                      <p>Airports served by Hahn Air partner airlines will be highlited in blue.</p>
+                    
+                      <p><img src="ha_images/images/routemaps-airportcodes.jpg" alt="routes"></p>
+                    
+                     </div>
+
+                    
+                    </article>
+                   
+                   
+                </div>
+                
+                <!--end of tab content -->
+             </div>
+           </div>
+           
+         </div> 
+            
+          </div>
+
+   
+    
+    <!--start of footer -->
+    <footer class="row">
+        
+          <div class="footercontent span12">
+          
+           <div class="footerlist offset1 span2" >
+           <h5>I want to... </h5>
+           
+           <ul class="unstyled">
+               <li><a href=""><span>find out more about ticketing</span></a></li>
+               <li><a href=""><span>have a look at some airline profiles</span></a></li>
+               <li><a href=""><span>learn how to use Hahn Air and its website</span></a></li>
+           </ul>
+           </div>
+           
+              <div class="span2 footerlist" >
+           <h5>Direct Downloads</h5>
+           <ul class="unstyled">
+               <li><a href="" ><span>Refund Policy</span></a></li>
+               <li><a href="" ><span>ADM Policy</span></a></li>
+               <li><a href="" ><span>Charges for additional Revenue Accounting Services</span></a></li>
+               <li><a href="" ><span>Déclaration de consentement (MA)</span></a></li>
+               <li><a href="" ><span>Formulaire des Justificatifs (MA)</span></a></li>
+           </ul>
+
+           </div>
+
+           <div class="span2 footerlist">
+             <h5>Securtix&reg; </h5>
+          <ul class="unstyled">
+              <li><a href=""><span>Insurance Confirmation</span></a></li>
+              <li><a href=""><span>Insurance Policy Allianz</span></a></li>
+              <li><a href="" ><span>How to Claim Compensation</span></a></li>
+          </ul>
+                
+         </div>
+           
+         <div class="span2 footerlist">
+            <h5>ADM Waiver</h5>
+           <ul class="unstyled">
+               <li><a href="" ><span>About "Your Rooster"</span></a></li>
+               <li><a href=""><span>Terms and Conditions</span></a></li>
+               <li><a href=""><span>get a 2nd "Your Rooster"</span></a></li>
+           </ul>
+           </div>
+
+           <div class="span2 footerlist" >
+             <h5>Additional Website </h5>
+           <ul class="unstyled">
+            <li><a href="">Hahn Air <strong>For Airlines</strong></a></li>
+            <li><a href=""></a></li>
+           </ul>
+
+           </div>           
+           </div>
+           
+          
+             <div class="footer-contact">
+               <div class="row copyright">
+                
+                 <ul class="menu unstyled">
+                    <li class="divider-vertical"><a href=""><span>© Copyright 2013 Hahn Air Lines GmbH </span></a></li>
+                   <li class="divider-vertical"><a href="/contact-us.html"><span>Contact Us</span></a></li>
+                   <li class="divider-vertical"><a href="/legal-note.html"><span>Legal Note</span></a></li>
+                   <li class="divider-vertical"><a href="/terms-a-conditions-ticketing.html"><span>Terms &amp; Conditions Ticketing</span></a></li>
+                   <li class="divider-vertical"><a href="/imprint.html"><span>Imprint</span></a></li>
+                </ul>
+                 
+               </div>
+
+              <div class="footer-logos">
+              <img alt="" src="ha_images/footer_logos.png">
+             </div>
+            
+              
+             </div>
+
+     </footer>
+     
+    
+     
+     
+     <!--side bar -->
+      <div class="row sidebar">
+       <div id="sidebar-box">
+        <div id="feedback-button"><a title="Feedback" class="show-feedback" href="#"><span class="hidden">Feedback</span></a></div>
+        <div id="sm-link-box">
+          <div id="sm-link-box-content">
+          <a title="Become a Fan on Facebook" href="http://www.facebook.com/?ref=logo#!/pages/Hahn-Air-Lines-GmbH/110858148945628" class="sm-side-box-fb"><span class="hidden">Become a Fan on Facebook</span></a>
+          <a title="Follow us on Twitter" href="http://twitter.com/HahnAirLines" class="sm-side-box-tw"><span class="hidden">Follow us on Twitter</span></a>
+         <a title="Follow us on Google+" href="https://plus.google.com/u/0/b/112052099511855872240/112052099511855872240/posts" class="sm-side-box-gplus"><span class="hidden">Follow us on Google+</span></a>
+          <a title="The Hahn Air YouTube Channel" href="http://www.youtube.com/travelagentmartin" class="sm-side-box-yt"><span class="hidden">The Hahn Air YouTube Channel</span></a>
+      
+        </div>
+        <div id="sm-link-box-bg"></div>
+        </div>
+       </div>
+    </div>
+    
+      <div id="login" class="modal hide fade in" style="display: none; ">
+        <div class="modal-header">
+          <a class="close" data-dismiss="modal">×</a>
+          <h3>Hahn Air Login</h3>
+        </div>
+        <div class="modal-body">
+         <div class="logging-form">
+           
+              <div class="content">
+                <div class="row">
+                  <div class="login-form">
+                    <h2>Login</h2>
+                    <form action="/test.php">
+                      <fieldset>
+                        <div class="clearfix">
+                          <input type="text" placeholder="Username">
+                        </div>
+                        <div class="clearfix">
+                          <input type="password" placeholder="Password">
+                        </div>
+                        <button class="btn primary" type="submit">Sign in</button>
+                      </fieldset>
+                    </form>
+                  </div>
+                </div>
+            </div>
+        
+        </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#" class="btn btn-success">Call to action</a>
+          <a href="#" class="btn" data-dismiss="modal">Close</a>
+        </div>
+      </div>
+    
+      
+       
+       
+  </div>
+  
+ 
+ 
+  
+  
+  
+  
+</body>
+
+</html>

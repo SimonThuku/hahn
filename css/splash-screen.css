@@ -1,0 +1,277 @@
+body {
+
+  background: url("../ha_images/body_bg.png") no-repeat scroll center top #4892C7;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  font-family: sans-serif;
+  font-size: 11px;
+  line-height: 13px;
+}
+#myCarousel {
+  background-color: #FFFFFF;
+  border: 1px solid rgba(119, 136, 153, 0.5);
+  border-radius: 4px 4px 4px 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+  height: 400px;
+  position: relative;
+}
+.item > img {
+  width: 100%;
+}
+.wrapper {
+  font-size: 12px;
+  margin: 0 auto !important;
+  width: 960px;
+}
+.agent-contact {
+
+}
+.contact ul li {
+  color: #FFFFFF;
+  float: left;
+  font-size: 0.7em;
+  height: 130px;
+  list-style-type: none;
+  margin: 10px 5px;
+  width: 199px;
+}
+.contacts {
+  border-bottom: 1px solid #91B6D0;
+  border-top: 1px solid #91B6D0;
+  height: 185px;
+  padding: 10px;
+}
+.industry > p {
+  margin-top: 0;
+  text-align: justify;
+  font-size: 11px;
+  padding: 15px;
+}
+.industry {
+
+  margin-left: 0px;
+  margin-right: 60px;
+  border-left: 1px solid #91B6D0;
+}
+.airlines-contact {
+  border-left: 1px solid #91B6D0;
+}
+.airlines-contact.span3 > div {
+  padding: 15px;
+}
+.airlines-contact.span3 > h4 {
+  padding: 15px;
+  padding-bottom: 0px;
+}
+.agent-contact.span3 > div {
+  padding: 15px;
+}
+
+.agent-contact.span3 > h4 {
+  padding: 15px;
+  padding-bottom: 0px;
+}
+
+#agencies .ha-window-left .image .image-text {
+  background: url(../ha_images/HahnAir_agencies.png) top left no-repeat;
+  height: 159px;
+  position: absolute;
+  width: 121px;
+}
+#agencies .ha-window-left .image {
+  height: 300px;
+  margin-left: 12px;
+  margin-top: 10px;
+  background-position: 0 0;
+  overflow: hidden;
+  width: 445px;
+}
+#agencies .ha-window-left {
+  overflow: hidden;
+  width: 700px;
+}
+
+#agencies {
+  float: left;
+  width: 468px;
+  overflow: hidden;
+}
+#airlines .ha-window-left .image .image-text {
+  background: url(../ha_images/HahnAir_airlines.png) top left no-repeat;
+  height: 159px;
+  position: absolute;
+  width: 128px;
+}
+
+#airlines .ha-window-left .image {
+  height: 300px;
+  margin-left: 12px;
+  margin-top: 10px;
+  width: 437px;
+  background-position: -145px 0;
+  overflow: hidden;
+}
+#airlines .ha-window-left {
+  overflow: hidden;
+}
+
+#airlines {
+  float: left;
+  width: 468px;
+  overflow: hidden;
+}
+.content .splash-box #agencies {
+  float: left;
+}
+
+.content .splash-box .ha-window-left {
+  background: url(/slot2/files/images/window_bg.png) top left no-repeat;
+  float: left;
+  height: 325px;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  width: 460px;
+}
+.content .splash-box .ha-window-right {
+  background: url(/slot2/files/images/window_bg.png) top right no-repeat;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 8px;
+}
+.content .header {
+  height: 80px;
+  position: relative;
+}
+.content .header .logo {
+  background-image: url(../ha_images/hahn_air_logo.png);
+  height: 41px;
+  margin: 30px 0 0 10px;
+  position: absolute;
+  width: 170px;
+}
+.content .splash-box {
+  height: 270px;
+  margin: 30px 0 91px 0;
+}
+.content {
+  font-size: 15px;
+  margin: 0 auto;
+  width: 960px;
+}
+.content .splash-box .ha-infobar {
+  background-image: url(../ha_images/infobar_bg.png);
+  color: #fff;
+  cursor: pointer;
+  display: none;
+  font-size: 0.75em;
+  font-weight: bold;
+  height: 64px;
+  margin: 0 12px;
+  padding: 10px 15px;
+  position: absolute;
+  top: 300px;
+  width: 647px;
+}
+.content .splash-box .ha-infobar .text {
+  float: left;
+  width: 470px;
+}
+.content .splash-box .ha-infobar .action-box {
+  float: left;
+  height: 100px;
+  width: 160px;
+}
+.content .splash-box .ha-infobar .action-box .redirect-div {
+  height: 20px;
+  width: 160px;
+}
+.content .splash-box .ha-infobar .action-box .redirect-div div {
+  float: left;
+  font-size: 10.5px;
+  font-weight: normal;
+  padding-top: 3px;
+  padding-left: 2px;
+}
+li {
+  line-height: 13px;
+}
+.content .splash-box .ha-infobar input[type="checkbox"] {
+  float: left;
+  margin-left: 18px;
+}
+.content .splash-box .ha-infobar .button {
+  background-image: url(../ha_images/button_bg.png);
+  height: 43px;
+  margin-left: 10px;
+  position: relative;
+  width: 150px;
+}
+.content .splash-box .ha-infobar .button-text {
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.2em;
+  font-weight: bold;
+  height: 25px;
+  padding-top: 12px;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+}
+.content .splash-box #airlines {
+  float: left;
+  margin-left: 4px;
+}
+
+a {
+  color: #fff;
+}
+
+h3, h4 {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.image {
+  background-position: -145px 0;
+  width: 200px;
+  overflow: hidden;
+}
+.ha-window-left {
+  width: 222px;
+  overflow: hidden;
+}
+
+.ha-window-left .image {
+  background-position: 0 0;
+  overflow: hidden;
+  width: 677px;
+}
+
+.ha-infobar {
+  display: none;
+  opacity: 0;
+}
+.copyright {
+  color: #EFEFEF;
+  margin: 40px 0 0 3px;
+  margin-top: 60px;
+}
+
+.text {
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+}
+h1, h2, h3 {
+  line-height: normal;
+}
+
+.image > img {
+  height: 100%;
+}

@@ -1,0 +1,126 @@
+h6{
+  margin:0px;
+}
+.detail-content {
+  background: none repeat scroll 0 0 #FFFFFF;
+  padding: 3px;
+  height: auto;
+  margin-bottom: 20px;
+  
+}
+.page-header {
+  overflow: hidden;
+  margin:0px;
+}
+.page-header h2 {
+  background: url("../ha_images/images/backgrounds/page_header_ticketing_bg.gif") repeat-y scroll 0 0 #0D59AB;
+  color: #FFFFFF;
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  height: 31px;
+  width: 682px;
+}
+.page-header h2 span {
+
+  padding: 7px 10px 0 50px;
+}
+
+.page-header h2 {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 700;
+}
+.sidenav-list {
+  background: none repeat scroll 0 0 #E7E7E7;
+  border-radius: 6px 6px 6px 6px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+  padding: 0;
+}
+.sidenav-list > li:first-child > a {
+  border-radius: 6px 6px 0 0;
+}
+.sidenav-list > li > a {
+  border-bottom: 1px solid #FFFFFF;
+  display: block;
+  margin: 0 0 -1px;
+  padding: 8px 14px;
+}
+.sidenav-list .icon-chevron-right {
+  float: right;
+  margin-right: -6px;
+  margin-top: 2px;
+  opacity: 0.25;
+}
+.latest-news {
+  margin-top: 20px;
+}
+.span3.sidebar > h5 {
+  color: #094294;
+}
+.right-content p {
+
+  clear: both;
+  color: #333333;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 0 0 15px;
+}
+.quick-check.span3 {
+  background-color: #FFFFFF;
+  border: 1px solid rgba(119, 136, 153, 0.5);
+  border-radius: 4px 4px 4px 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+  height: auto;
+  margin-bottom: 20px;
+  position: relative;
+  padding: 5px;
+}
+.contact-us {
+  background-color: #FFFFFF;
+  border: 1px solid rgba(119, 136, 153, 0.5);
+  border-radius: 4px 4px 4px 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+  height:auto;
+  position: relative;
+  margin-bottom: 20px;
+  padding:4px;
+}
+.detail-page-footer a#back-to-top {
+    background: url("../ha_images/images/icons/arrow_up.gif") no-repeat scroll 0 0 transparent;
+    margin: 0 16px 0 0;
+    padding-left: 16px;
+}
+.detail-page-footer p a {
+    color: #333333;
+    display: block;
+    float: left;
+    text-decoration: none;
+}
+
+.detail-page-footer a#print {
+    background: url("../ha_images/images/icons/print_page.gif") no-repeat scroll 0 0 transparent;
+    padding-left: 22px !important;
+}
+.detail-page-footer p a {
+    color: #333333;
+    display: block;
+    float: left;
+    padding: 1px 0 0;
+    text-decoration: none;
+}
+.detail-page-footer .tweet-this a {
+    background: url("../ha_images/images/icons/twitter.gif") no-repeat scroll 0 0 transparent;
+    color: #333333;
+    display: block;
+    padding-bottom: 0;
+    padding-left: 22px !important;
+    padding-right: 0;
+    padding-top: 1px;
+    text-decoration: none;
+}
+.detail-page-footer .tweet-this {
+    display: inline;
+    float: right;
+    margin: 0 0 0 16px;
+}

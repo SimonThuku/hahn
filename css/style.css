@@ -1,0 +1,224 @@
+body {
+
+  background: url("../ha_images/body_bg.png") no-repeat scroll center top #4892C7;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+}
+#myCarousel {
+  background-color: #FFFFFF;
+  height: 400px;
+  position: relative;
+}
+.item > img {
+  height: 400px;
+  width: 100%;
+}
+
+.news-release ul li a {
+  background: url("../ha_images/arrows_standard.gif") no-repeat scroll 0 3px transparent;
+  color: #333333;
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0 0 6px;
+  padding-left: 20px;
+  text-decoration: none;
+}
+.press-news ul li a {
+  background: url("../ha_images/arrows_standard.gif") no-repeat scroll 0 3px transparent;
+  color: #333333;
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0 0 6px;
+  padding-left: 20px;
+  text-decoration: none;
+}
+.tab-area-sect {
+  padding: 10px;
+}
+
+.nav-tabs {
+  background: linear-gradient(to bottom, #FCFFF4 0%, #DFE5D7 40%, #B3BEAD 100%) repeat scroll 0 0 transparent;
+}
+.wrapper {
+  font-size: 12px;
+  margin: 0 auto !important;
+  width: 960px;
+}
+.content .span8{
+  
+  width:680px;
+}
+.content .span3{
+  width:230px;
+}
+.gal-carousel {
+  height: 400px;
+}
+
+.quickCheck {
+  
+  background:#FF7400;
+  color: #FFFFFF;
+  font-weight: bold;
+  height: 30px;
+  text-align: center;
+}
+.quick-check-row {
+  border-bottom: 1px dotted #999999;
+  font-size: 11px;
+  font-weight: bold;
+  opacity: 0.8;
+  padding-left: 2em;
+  padding-right: 7px;
+  padding-top: 10px;
+}
+.intro-text {
+  margin: 0 0 10px;
+}
+
+.choose-bsp-arc {
+  width: 85%;
+}
+.checkme {
+  bottom: 0;
+  position: absolute;
+}
+.checkme a {
+  font-weight: bold;
+  width: 100%;
+}
+
+.cr-right {
+  background-color: #FFFFFF;
+  border: 1px solid rgba(119, 136, 153, 0.5);
+  border-radius: 4px 4px 4px 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+  height: 400px;
+  position: relative;
+  margin-bottom: 20px;
+  padding:4px;
+}
+
+#airline-codes {
+  border-right: 1px dotted #999999;
+}
+#airport-codes > p {
+  padding: 5px;
+}
+#airline-codes h4 {
+  color: #094294;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 3px 0 10px;
+}
+#airline-codes p {
+  font-size: 12px;
+  font-weight: 500;
+}
+.main-content {
+
+  
+  height: 400px;
+  margin-bottom: 20px;
+}
+.item.active > img {
+
+  width: 100%;
+}
+
+.description-content {
+  background-color: #FFFFFF;
+  border: 1px solid rgba(119, 136, 153, 0.5);
+  border-radius: 4px 4px 4px 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+  margin-bottom: 20px;
+}
+.description-left {
+  border-right: 1px dotted #999999;
+  color: #333333;
+  display: inline;
+  float: left;
+  font-size: 12px;
+  font-weight: 700;
+  margin: 12px 0;
+  padding: 0 12px;
+}
+.description-center {
+  color: #0D59AB;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.description-right {
+  font-weight: bold;
+  left: 2%;
+  width: 10%;
+}
+p {
+  margin: 0 0 10px;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 20%;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 20%;
+}
+td.first-col {
+  color: #0D59AB;
+  font-weight: bold;
+}
+td {
+  font-size: 12px;
+  padding: 12px 0;
+  white-space: nowrap;
+}
+.description-center-left {
+  width: 50%;
+  float: left;
+}
+.search-bar {
+  padding: 10px;
+}
+/*side bar css*/
+
+
+
+
+
+.menu {
+
+}
+
+.navbar-inner {
+
+}
+ /* Override some defaults */
+ .logging-form {
+        width: 300px;
+      }
+
+      /* The white background content wrapper */
+      .logging-form > .content {
+        background-color: #fff;
+        padding: 20px;
+        margin: 0 -20px; 
+        -webkit-border-radius: 10px 10px 10px 10px;
+           -moz-border-radius: 10px 10px 10px 10px;
+                border-radius: 10px 10px 10px 10px;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+           -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+                box-shadow: 0 1px 2px rgba(0,0,0,.15);
+      }
+
+    .login-form {
+    margin-left: 65px;
+    }
+  

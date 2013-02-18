@@ -1,0 +1,98 @@
+
+#gallery img{
+  margin-bottom:10px;
+  
+}
+body {
+
+  background: url("../ha_images/body_bg.png") no-repeat scroll center top #4892C7;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+}
+.cr-right {
+  background-color: #FFFFFF;
+  border: 1px solid rgba(119, 136, 153, 0.5);
+  border-radius: 4px 4px 4px 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+  height: 400px;
+  position: relative;
+  margin-bottom: 20px;
+  padding:4px;
+}
+.gallery-articles{
+  width:20%;
+}
+#gallery img{
+  width:180px;
+  float:left;
+  padding: 5px 10px 0 0;
+}
+#gallery > p {
+  
+ width:180px;
+ float:right;
+ line-height:15px;
+
+}
+span.article_separator {
+    border-top: 1px solid #DDDDDD;
+    display: block;
+    font-size: 1px;
+    height: 1px;
+    margin: 15px 0;
+   
+}
+.full-article > div {
+    margin-bottom: 50px;
+}
+
+#gallery span{
+    color: #333333;
+    font-size: 12px;
+    line-height: 18px;
+   
+}
+.blog_more li{
+  
+    background: url("../ha_images/images/icons/enum.gif") no-repeat scroll 0 6px transparent;
+    display: block;
+    padding-left: 12px;
+}
+.blogsection{
+   font-size:12px;
+}
+.teaser-article li{
+  
+    background: url("../ha_images/images/icons/enum.gif") no-repeat scroll 0 6px transparent;
+    display: block;
+    padding-left: 12px;
+}
+.teaser-article a{
+   font-size:12px;
+}
+.teaser-article > p {
+  margin: 0 0 15px;
+}
+.teaser-article > p {
+    margin-bottom: 35px;
+}
+.game{
+  list-style:none;
+}
+.games-list{
+  opacity:0;
+  
+}
+.game > li a {
+   border-bottom:1px solid #FFFFFF;
+
+}
+.contentpagetitle{
+  color: #333333;
+  
+}
+.pin-and-win li{
+  background: url("../ha_images/images/icons/enum.gif") no-repeat scroll 0 6px transparent;
+}

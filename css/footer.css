@@ -1,0 +1,38 @@
+.footercontent {
+  border: 1px solid rgba(255, 255, 250, 0.5);
+  border-radius: 4px 4px 4px 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+  margin-bottom: 2px;
+}
+.footerlist.span2 {
+  margin-left: 25px;
+}
+.footerlist ul li a {
+  color: #D1E0EA;
+  font-size: 0.9em;
+}
+.footerlist h5 {
+  color: #D1E0EA;
+  font-weight: bold;
+}
+.menu > li a {
+  float: left;
+  color: #FFFFFF;
+  border-left: 1px solid #97BEDA;
+  color: #D1E0EA;
+  padding: 0 3px;
+  text-decoration: none;
+  font-size: 12px;
+  
+}
+
+.footer-logos {
+  text-align: right;
+  width: 700px;
+}
+.footer-contact {
+
+}
+.copyright {
+  margin-bottom: 40px;
+}

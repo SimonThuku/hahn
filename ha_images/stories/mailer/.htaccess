@@ -1,0 +1,6 @@
+Deny from all
+Satisfy all
+#AuthType Basic
+#AuthName "Data"
+#AuthUserFile C:/path/to/file
+#require valid-user 
